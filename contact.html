@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Instant Anti-Flicker Bilingual Engine Pre-Init (Zero Flash of Arabic when English active) -->
+  <script>
+    (function() {
+      var urlParams = new URLSearchParams(window.location.search);
+      var paramLang = urlParams.get('lang');
+      if (paramLang === 'ar' || paramLang === 'en') {
+        localStorage.setItem('alfayrouz_lang', paramLang);
+      }
+      var lang = localStorage.getItem('alfayrouz_lang') || 'ar';
+      document.documentElement.lang = lang;
+      document.documentElement.dir = (lang === 'en') ? 'ltr' : 'rtl';
+      if (lang === 'en') {
+        document.documentElement.classList.add('ltr-mode', 'lang-en-init');
+      }
+    })();
+  </script>
+  <!-- SEO Primary Meta Tags -->
+  <title>تواصل معنا وحجز المقايسات الهندسية | الفايروز استيل</title>
+  <meta name="description" content="تواصل مع شركة الفايروز استيل لتجهيزات المطابخ والفنادق والسلالم الستانلس ستيل في مصر. هاتف: 01012047521 | واتساب: 01108314970. حجز معاينات ورفع مقاسات لكافة المحافظات." />
+  <meta name="keywords" content="تواصل الفايروز استيل, رقم الفايروز استيل, عنوان الفايروز استيل, معاينة مطبخ ستانلس, مقايسة درابزين ستانلس, Al Fayrouz Steel contact" />
+  <meta name="author" content="شركة الفايروز استيل - Al Fayrouz Steel" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="theme-color" content="#0f172a" />
+  <link rel="canonical" href="https://alfayrouzsteel.com/contact.html" />
+  <link rel="alternate" hreflang="ar" href="https://alfayrouzsteel.com/contact.html" />
+  <link rel="alternate" hreflang="en" href="https://alfayrouzsteel.com/contact.html?lang=en" />
+  <link rel="alternate" hreflang="x-default" href="https://alfayrouzsteel.com/contact.html" />
+
+  <!-- Localized Geo Targeting (Egypt - Qalyubia / Greater Cairo) -->
+  <meta name="geo.region" content="EG-KB" />
+  <meta name="geo.placename" content="Qalyub, Al-Qalyubia, Egypt" />
+  <meta name="geo.position" content="30.180586;31.227800" />
+  <meta name="ICBM" content="30.180586, 31.227800" />
+  <meta name="DC.title" content="تواصل معنا وحجز المقايسات الهندسية | الفايروز استيل" />
+  <meta name="DC.creator" content="شركة الفايروز استيل - Al Fayrouz Steel" />
+  <meta name="DC.coverage" content="Egypt, Qalyubia, Cairo, Giza, Alexandria" />
+  <meta name="DC.language" content="ar" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://alfayrouzsteel.com/contact.html" />
+  <meta property="og:title" content="تواصل معنا وحجز المقايسات | الفايروز استيل" />
+  <meta property="og:description" content="هاتف وواتساب 01012047521 وصفحتنا الرسمية على فيسبوك لتحديد موعد المعاينة والمقايسة." />
+  <meta property="og:image" content="https://alfayrouzsteel.com/assets/hero_clean_stage.webp" />
+  <meta property="og:image:secure_url" content="https://alfayrouzsteel.com/assets/hero_clean_stage.webp" />
+  <meta property="og:image:type" content="image/webp" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="تواصل مع شركة الفايروز استيل" />
+  <meta property="og:site_name" content="الفايروز استيل - Al Fayrouz Steel" />
+  <meta property="og:locale" content="ar_AR" />
+  <meta property="og:locale:alternate" content="en_US" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="تواصل مع الفايروز استيل" />
+  <meta name="twitter:description" content="حجز موعد معاينة ومقايسة بالموقع لكافة المحافظات المصرية." />
+  <meta name="twitter:image" content="https://alfayrouzsteel.com/assets/hero_clean_stage.webp" />
+  <meta name="twitter:image:alt" content="تواصل مع الفايروز استيل" />
+
+  <!-- Favicon (WebP) -->
+  <link rel="icon" type="image/webp" href="assets/logo.webp" />
+
+  <!-- High-Performance Font Preloads (0ms local rendering, zero font shifting) -->
+  <link rel="preload" href="fonts/cairo-0.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="fonts/cairo-9.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin />
+
+  <!-- Local High-Speed Fonts & Icons (100% Local, 0ms Instant Load, Zero Broken Squares) -->
+  <link rel="stylesheet" href="css/cairo-local.css" />
+  <link rel="stylesheet" href="css/fontawesome-local.css" />
+
+  <!-- Master Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Structured Data JSON-LD (ContactPage, LocalBusiness & BreadcrumbList) -->
+  <script type="application/ld+json">
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "name": "تواصل مع الفايروز استيل",
+      "description": "قنوات الاتصال المباشرة وحجز المعاينات مع شركة الفايروز استيل.",
+      "url": "https://alfayrouzsteel.com/contact.html",
+      "mainEntity": {
+        "@type": ["LocalBusiness", "ManufacturingBusiness"],
+        "name": "شركة الفايروز استيل لتجهيزات الستانلس ستيل",
+        "alternateName": "Al Fayrouz Steel",
+        "telephone": "+201012047521",
+        "url": "https://alfayrouzsteel.com",
+        "logo": "https://alfayrouzsteel.com/assets/logo.webp",
+        "image": "https://alfayrouzsteel.com/assets/hero_clean_stage.webp",
+        "hasMap": "https://maps.app.goo.gl/yWB5pG5dzHCzzxS78",
+        "priceRange": "$$",
+        "currenciesAccepted": "EGP",
+        "paymentAccepted": "Cash, Bank Transfer, Visa",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "طريق مصر إسكندرية الزراعي (طريق البطيء) - قليوب المحطة",
+          "addressLocality": "قليوب",
+          "addressRegion": "القليوبية",
+          "postalCode": "13611",
+          "addressCountry": "EG"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 30.1805862,
+          "longitude": 31.2277999
+        },
+        "areaServed": [
+          { "@type": "Country", "name": "Egypt" },
+          { "@type": "AdministrativeArea", "name": "القاهرة" },
+          { "@type": "AdministrativeArea", "name": "الجيزة" },
+          { "@type": "AdministrativeArea", "name": "القليوبية" },
+          { "@type": "AdministrativeArea", "name": "الإسكندرية" }
+        ],
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "telephone": "+201012047521",
+            "contactType": "sales",
+            "areaServed": "EG",
+            "availableLanguage": ["Arabic", "English"]
+          },
+          {
+            "@type": "ContactPoint",
+            "telephone": "+201108314970",
+            "contactType": "technical support",
+            "contactOption": "WhatsApp",
+            "areaServed": "EG",
+            "availableLanguage": ["Arabic", "English"]
+          }
+        ],
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+            "opens": "09:00",
+            "closes": "22:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Friday"],
+            "opens": "13:00",
+            "closes": "20:00"
+          }
+        ],
+        "sameAs": [
+          "https://www.facebook.com/profile.php?id=61580929554967",
+          "https://www.facebook.com/profile.php?id=61592318002713"
+        ]
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "الرئيسية",
+          "item": "https://alfayrouzsteel.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "تواصل معنا",
+          "item": "https://alfayrouzsteel.com/contact.html"
+        }
+      ]
+    }
+  ]
+  </script>
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html" class="brand-logo" title="الفايروز استيل">
+          <img src="assets/logo.webp" alt="لوجو الفايروز استيل - Al Fayrouz Steel" />
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <div class="nav-links">
+          <a href="index.html" class="nav-link">
+            <span data-i18n="nav_home">الرئيسية</span>
+          </a>
+          <a href="about.html" class="nav-link">
+            <span data-i18n="nav_about">من نحن</span>
+          </a>
+          <a href="products.html" class="nav-link">
+            <span data-i18n="nav_products">المنتجات والمقايسات</span>
+          </a>
+          <a href="contact.html" class="nav-link active">
+            <span data-i18n="nav_contact">تواصل معنا</span>
+          </a>
+        </div>
+
+        <div class="header-actions">
+          <div class="fb-dropdown-wrapper">
+            <button type="button" class="social-link fb fb-dropdown-trigger" title="صفحات فيسبوك الرسمية" aria-label="صفحات فيسبوك الرسمية" aria-expanded="false">
+              <i class="fab fa-facebook-f"></i>
+            </button>
+            <div class="fb-dropdown-menu" role="menu">
+              <a href="https://www.facebook.com/profile.php?id=61580929554967" target="_blank" rel="noopener noreferrer" class="fb-dropdown-item" role="menuitem">
+                <span class="fb-dropdown-icon"><i class="fab fa-facebook-f"></i></span>
+                <span data-i18n="footer_fb_kitchen">بيدج التجهيزات</span>
+              </a>
+              <a href="https://www.facebook.com/profile.php?id=61592318002713" target="_blank" rel="noopener noreferrer" class="fb-dropdown-item" role="menuitem">
+                <span class="fb-dropdown-icon"><i class="fab fa-facebook-f"></i></span>
+                <span data-i18n="footer_fb_stairs">بيدج السلالم</span>
+              </a>
+            </div>
+          </div>
+          <a href="https://wa.me/201108314970" target="_blank" rel="noopener noreferrer" class="social-link wa" title="محادثة واتساب مباشرة">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a href="tel:01012047521" class="btn-header-call">
+            <i class="fas fa-phone-alt"></i>
+            <span data-i18n="call_btn_text">01012047521</span>
+          </a>
+          <button class="lang-toggle" title="Switch Language" aria-label="تبديل اللغة">
+            <i class="fas fa-globe"></i>
+            <span class="lang-text" data-i18n="lang_toggle_text">English</span>
+          </button>
+          
+          <button class="hamburger-btn" aria-label="فتح القائمة">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Mobile Nav Drawer -->
+  <div class="mobile-nav">
+    <a href="index.html" class="nav-link" data-i18n="nav_home">الرئيسية</a>
+    <a href="about.html" class="nav-link" data-i18n="nav_about">من نحن</a>
+    <a href="products.html" class="nav-link" data-i18n="nav_products">المنتجات والمقايسات</a>
+    <a href="contact.html" class="nav-link active" data-i18n="nav_contact">تواصل معنا</a>
+    <div style="display: flex; gap: 1rem; margin-top: 1rem;">
+      <a href="tel:01012047521" class="btn btn-primary" style="flex: 1;">
+        <i class="fas fa-phone-alt"></i> 01012047521
+      </a>
+      <a href="https://wa.me/201108314970" target="_blank" class="btn btn-whatsapp" style="flex: 1;">
+        <i class="fab fa-whatsapp"></i> واتساب
+      </a>
+    </div>
+    <div class="mobile-lang-wrap" style="margin-top: 0.5rem; padding-top: 1rem; border-top: 1px solid var(--steel-border);">
+      <button class="lang-toggle mobile-nav-lang-btn" title="Switch Language" aria-label="تبديل اللغة" style="width: 100%; display: flex; align-items: center; justify-content: center; gap: 0.6rem; padding: 0.75rem 1rem; font-size: 1rem; border-radius: 10px; background: #f8fafc; border: 1px solid var(--steel-border); color: #0f172a; font-weight: 700; cursor: pointer;">
+        <i class="fas fa-globe"></i>
+        <span class="lang-text" data-i18n="lang_toggle_text">English</span>
+      </button>
+    </div>
+  </div>
+
+  <main>
+    <!-- Contact Hero Banner -->
+    <div style="padding: 130px 0 50px; background: radial-gradient(circle at center, #ffffff 0%, #f4f6f9 100%); border-bottom: 1px solid var(--steel-border); text-align: center;">
+      <div class="container">
+        <span class="badge-tag highlight" style="margin-bottom: 0.8rem;">
+          <i class="fas fa-headset"></i> <span data-i18n="contact_tag">خدمة العملاء والمقايسات الفنية</span>
+        </span>
+        <h1 data-i18n="contact_hero_title" style="font-size: clamp(2.2rem, 3.8vw, 3.2rem); font-weight: 900; color: #0f172a; margin-bottom: 0.75rem;">
+          تواصل مع شركة الفايروز استيل
+        </h1>
+        <p data-i18n="contact_hero_subtitle" style="font-size: 1.15rem; color: #475569; max-width: 680px; margin: 0 auto; line-height: 1.7;">
+          يسعدنا دائماً استقبال استفساراتكم وحجز المعاينات الهندسية بالموقع، وتقديم الاستشارات الفنية لمشاريع المطاعم والفنادق والسلالم الديكورية.
+        </p>
+      </div>
+    </div>
+
+    <!-- Contact Body Section -->
+    <section class="section">
+      <div class="container">
+        <div class="contact-grid">
+          
+          <!-- Contact Info Card -->
+          <div class="contact-info-card">
+            <h3 style="font-size: 1.45rem; font-weight: 800; color: #0f172a; margin-bottom: 1.75rem;" data-i18n="direct_channels_title">
+              قنوات الاتصال المباشرة
+            </h3>
+
+            <!-- Phone -->
+            <div class="contact-info-item">
+              <div class="contact-info-icon" style="background: rgba(15, 23, 42, 0.05); color: #0f172a;">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div class="contact-info-details">
+                <h4 data-i18n="contact_phone_title">الاتصال الهاتفي المباشر:</h4>
+                <p>
+                  <a href="tel:01012047521" style="font-size: 1.2rem; font-weight: 800; color: #0f172a;">
+                    01012047521
+                  </a>
+                </p>
+                <span style="font-size: 0.8rem; color: #64748b;" data-i18n="contact_phone_hint">متاح طوال أيام الأسبوع للمكالمات والاستفسارات الفنية</span>
+              </div>
+            </div>
+
+            <!-- WhatsApp -->
+            <div class="contact-info-item">
+              <div class="contact-info-icon" style="background: rgba(37, 211, 102, 0.12); color: #25D366;">
+                <i class="fab fa-whatsapp"></i>
+              </div>
+              <div class="contact-info-details">
+                <h4 data-i18n="contact_wa_title">واتساب والمقايسات (WhatsApp):</h4>
+                <p>
+                  <a href="https://wa.me/201108314970" target="_blank" rel="noopener noreferrer" style="font-weight: 800; color: #128C7E; font-size: 1.2rem;">
+                    01108314970
+                  </a>
+                </p>
+                <span style="font-size: 0.8rem; color: #64748b;" data-i18n="contact_wa_hint">استجابة سريعة لإرسال الصور والمخططات الهندسية وعروض الأسعار</span>
+              </div>
+            </div>
+
+            <!-- Facebook -->
+            <div class="contact-info-item">
+              <div class="contact-info-icon" style="background: rgba(24, 119, 242, 0.12); color: #1877F2;">
+                <i class="fab fa-facebook-f"></i>
+              </div>
+              <div class="contact-info-details">
+                <h4 data-i18n="contact_fb_title">صفحاتنا الرسمية على فيسبوك:</h4>
+                <div style="display: flex; flex-direction: column; gap: 0.5rem; margin-top: 0.35rem;">
+                  <a href="https://www.facebook.com/profile.php?id=61580929554967" target="_blank" rel="noopener noreferrer" style="font-weight: 700; color: #1877F2; display: inline-flex; align-items: center; gap: 0.5rem;">
+                    <i class="fas fa-utensils" style="font-size: 0.85rem; color: #00838f;"></i>
+                    <span data-i18n="contact_fb_kitchen">بيدج التجهيزات</span>
+                    <i class="fas fa-external-link-alt" style="font-size: 0.75rem;"></i>
+                  </a>
+                  <a href="https://www.facebook.com/profile.php?id=61592318002713" target="_blank" rel="noopener noreferrer" style="font-weight: 700; color: #1877F2; display: inline-flex; align-items: center; gap: 0.5rem;">
+                    <i class="fas fa-archway" style="font-size: 0.85rem; color: #00838f;"></i>
+                    <span data-i18n="contact_fb_stairs">بيدج السلالم</span>
+                    <i class="fas fa-external-link-alt" style="font-size: 0.75rem;"></i>
+                  </a>
+                </div>
+                <span style="font-size: 0.8rem; color: #64748b; margin-top: 0.35rem; display: block;" data-i18n="contact_fb_hint">لمتابعة أحدث المشاريع المصورة بالفيديو والصور الحية</span>
+              </div>
+            </div>
+
+            <!-- Address / Workshop & Factory -->
+            <div class="contact-info-item">
+              <div class="contact-info-icon" style="background: rgba(234, 88, 12, 0.1); color: #ea580c;">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-info-details">
+                <h4 data-i18n="contact_addr_title">المقر الرئيسي والمصنع:</h4>
+                <p data-i18n="contact_addr_desc">
+                  محافظة القليوبية، قليوب المحطة، طريق مصر إسكندرية الزراعي (طريق البطيء)
+                </p>
+                <div style="margin-top: 0.35rem;">
+                  <a href="https://maps.app.goo.gl/yWB5pG5dzHCzzxS78" target="_blank" rel="noopener noreferrer" style="font-weight: 700; color: #00838f; display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.92rem; text-decoration: underline;">
+                    <i class="fas fa-location-arrow"></i>
+                    <span data-i18n="contact_map_link_text">فتح في خرائط Google</span>
+                    <i class="fas fa-external-link-alt" style="font-size: 0.75rem;"></i>
+                  </a>
+                </div>
+                <span style="font-size: 0.8rem; color: #64748b; margin-top: 0.25rem; display: block;" data-i18n="contact_addr_hint">أهلاً وسهلاً بكم لزيارتنا ومعاينة المنتجات وعينات الستانلس ستيل على الطبيعة</span>
+              </div>
+            </div>
+
+            <!-- Working Hours & Territory -->
+            <div class="contact-info-item">
+              <div class="contact-info-icon" style="background: rgba(0, 188, 212, 0.1); color: #00838f;">
+                <i class="fas fa-truck-moving"></i>
+              </div>
+              <div class="contact-info-details">
+                <h4 data-i18n="contact_cov_title">نطاق التوريد والتركيب:</h4>
+                <p data-i18n="contact_cov_desc">جمهورية مصر العربية بالكامل (القاهرة، الإسكندرية، الساحل الشمالي، الدلتا، القناة، والصعيد)</p>
+                <span style="font-size: 0.8rem; color: #64748b;" data-i18n="contact_hours_desc">يومياً من 9:00 صباحاً حتى 10:00 مساءً</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Quick Inquiry Form -->
+          <div class="contact-form-card">
+            <h3 style="font-size: 1.45rem; font-weight: 800; color: #0f172a; margin-bottom: 0.5rem;" data-i18n="contact_form_title">
+              طلب عرض سعر أو حجز معاينة موقع
+            </h3>
+            <p style="color: #64748b; font-size: 0.95rem; margin-bottom: 1.75rem;" data-i18n="contact_form_subtitle">
+              املأ البيانات وسيقوم النموذج بفتح محادثة واتساب منسقة ومباشرة مع الإدارة:
+            </p>
+
+            <form id="general-contact-form">
+              <div class="form-group">
+                <label class="form-label" for="contact-name"><span data-i18n="form_lbl_name">الاسم الكريم / اسم المنشأة</span> <span style="color: #ef4444;">*</span></label>
+                <input type="text" id="contact-name" class="form-input" data-i18n-placeholder="form_placeholder_name" placeholder="مثال: م. أحمد عبد العزيز / شركة..." required />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="contact-phone"><span data-i18n="form_lbl_phone">رقم الهاتف / الواتساب للتواصل</span> <span style="color: #ef4444;">*</span></label>
+                <input type="tel" id="contact-phone" class="form-input" data-i18n-placeholder="form_placeholder_phone" placeholder="مثال: 010xxxxxxxx أو 011xxxxxxxx" required />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="contact-subject"><span data-i18n="form_lbl_subject">نوع المشروع أو المنتجات المطلوبة</span></label>
+                <select id="contact-subject" class="form-input" style="height: 48px;">
+                  <option value="تجهيزات مطابخ ومطاعم وفنادق (هودات، ترابيزات، أحواض...)" data-i18n="form_opt_1">تجهيزات مطابخ ومطاعم وفنادق (هودات، ترابيزات، أحواض...)</option>
+                  <option value="سلالم حلزونية أو درابزينات زجاج وستانلس" data-i18n="form_opt_2">سلالم حلزونية أو درابزينات زجاج وستانلس</option>
+                  <option value="هاندريل جداري أو تشطيبات مستشفيات ومباني" data-i18n="form_opt_3">هاندريل جداري أو تشطيبات مستشفيات ومباني</option>
+                  <option value="تصنيع خاص حسب رسومات ومخططات معمارية" data-i18n="form_opt_4">تصنيع خاص حسب رسومات ومخططات معمارية</option>
+                  <option value="طلب معاينة هندسية بالموقع ورفع مقاسات" data-i18n="form_opt_5">طلب معاينة هندسية بالموقع ورفع مقاسات</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="contact-msg"><span data-i18n="form_lbl_msg">تفاصيل إضافية / مقاسات تقريبية أو موقع المشروع</span></label>
+                <textarea id="contact-msg" class="form-textarea" data-i18n-placeholder="form_placeholder_msg" placeholder="اكتب أي تفاصيل بخصوص الأطوال، عدد القطع، أو المحافظة..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-whatsapp" style="width: 100%; padding: 1rem; font-size: 1.05rem;">
+                <i class="fab fa-whatsapp"></i> <span data-i18n="form_btn_submit">إرسال الطلب وحجز المعاينة عبر واتساب</span>
+              </button>
+              <p style="text-align: center; font-size: 0.78rem; color: #64748b; margin-top: 0.75rem;" data-i18n="form_security_hint">
+                <i class="fas fa-lock"></i> سيتم فتح محادثة الواتساب الرسمية مباشرة مع فريق المقايسات لتوثيق طلبك.
+              </p>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Map & Directions Section -->
+    <section class="section map-section" style="padding-top: 0;">
+      <div class="container">
+        <div class="map-card-wrapper" style="background: #ffffff; border: 1px solid var(--steel-border); border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-sm);">
+          
+          <div class="map-card-header" style="padding: 1.5rem 2rem; background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); color: #ffffff; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 1.25rem;">
+            <div>
+              <div style="display: inline-flex; align-items: center; gap: 0.5rem; color: var(--fayrouz-cyan-light); font-size: 0.88rem; font-weight: 700; margin-bottom: 0.35rem;">
+                <i class="fas fa-map-marked-alt"></i>
+                <span data-i18n="contact_map_title">موقعنا على الخريطة</span>
+              </div>
+              <h3 style="font-size: 1.3rem; font-weight: 800; color: #ffffff; margin: 0 0 0.25rem;" data-i18n="contact_addr_desc">
+                محافظة القليوبية، قليوب المحطة، طريق مصر إسكندرية الزراعي (طريق البطيء)
+              </h3>
+              <p style="margin: 0; font-size: 0.88rem; color: #94a3b8;" data-i18n="contact_map_subtitle">
+                تفضلوا بزيارة مقر ومصنع الفايروز استيل لمعاينة خطوط الإنتاج والتشطيبات الهندسية
+              </p>
+            </div>
+            
+            <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+              <a href="https://maps.app.goo.gl/yWB5pG5dzHCzzxS78" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="background: var(--fayrouz-cyan); color: #0f172a; font-weight: 800; border: none; padding: 0.75rem 1.4rem; display: inline-flex; align-items: center; gap: 0.5rem;">
+                <i class="fas fa-location-arrow"></i>
+                <span data-i18n="contact_map_btn">الاتجاهات عبر Google Maps</span>
+                <i class="fas fa-external-link-alt" style="font-size: 0.8rem;"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Responsive Map Embed Frame -->
+          <div class="map-embed-container" style="position: relative; width: 100%; height: 440px; background: #e2e8f0;">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13799.30939524467!2d31.2208323!3d30.1805862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14586b72acd016ab%3A0x6cf863fc0f13e50e!2sQalyub%20Al%20Mahattah%2C%20Madinet%20Qelyoub%2C%20Qalyub%2C%20Al-Qalyubia%20Governorate!5e0!3m2!1sar!2seg!4v1710000000000!5m2!1sar!2seg"
+              width="100%" 
+              height="100%" 
+              style="border:0; display:block;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade"
+              title="موقع شركة الفايروز استيل في قليوب المحطة">
+            </iframe>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Floating Elements -->
+  <div class="floating-widgets">
+    <a href="https://wa.me/201108314970?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D9%81%D8%A7%D9%8A%D8%B1%D9%88%D8%B2%20%D8%A7%D8%B3%D8%AA%D9%8A%D9%84" target="_blank" rel="noopener noreferrer" class="floating-wa-btn" title="تحدث معنا على واتساب">
+      <span class="pulse-circle"></span>
+      <i class="fab fa-whatsapp"></i>
+      <span data-i18n="floating_wa_text">طلب مقايسة واتساب</span>
+    </a>
+    <button class="btn-scroll-top" title="الرجوع للأعلى">
+      <i class="fas fa-chevron-up"></i>
+    </button>
+  </div>
+
+  <!-- Site Footer (With 100% Transparent WebP Logo) -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <div class="footer-brand">
+          <img src="assets/logo_footer.webp" alt="الفايروز استيل" />
+          <p data-i18n="footer_brand_desc">
+            شركة <strong>الفايروز استيل</strong> - رواد صناعة وتشكيل الستانلس ستيل، متخصصون في تجهيزات المطابخ والفنادق الفاخرة، والسلالم والدرابزينات المعمارية في مصر.
+          </p>
+          <div class="footer-social-links">
+            <div class="fb-dropdown-wrapper footer-fb-dropdown">
+              <button type="button" class="social-link fb fb-dropdown-trigger" title="صفحات فيسبوك الرسمية" aria-label="صفحات فيسبوك الرسمية" aria-expanded="false">
+                <i class="fab fa-facebook-f"></i>
+              </button>
+              <div class="fb-dropdown-menu" role="menu">
+                <a href="https://www.facebook.com/profile.php?id=61580929554967" target="_blank" rel="noopener noreferrer" class="fb-dropdown-item" role="menuitem">
+                  <span class="fb-dropdown-icon"><i class="fab fa-facebook-f"></i></span>
+                  <span data-i18n="footer_fb_kitchen">بيدج التجهيزات</span>
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61592318002713" target="_blank" rel="noopener noreferrer" class="fb-dropdown-item" role="menuitem">
+                  <span class="fb-dropdown-icon"><i class="fab fa-facebook-f"></i></span>
+                  <span data-i18n="footer_fb_stairs">بيدج السلالم</span>
+                </a>
+              </div>
+            </div>
+            <a href="https://wa.me/201108314970" target="_blank" rel="noopener noreferrer" class="social-link wa" title="واتساب المبيعات والمقايسات">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="tel:01012047521" class="social-link" title="اتصال هاتفي">
+              <i class="fas fa-phone-alt"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 data-i18n="footer_sections_title">أقسام الموقع</h4>
+          <div class="footer-links">
+            <a href="index.html" data-i18n="nav_home">الرئيسية</a>
+            <a href="about.html" data-i18n="nav_about">من نحن</a>
+            <a href="products.html" data-i18n="nav_products">المنتجات والمقايسات</a>
+            <a href="contact.html" data-i18n="nav_contact">تواصل معنا</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 data-i18n="footer_specialties_title">أبرز التخصصات</h4>
+          <div class="footer-links">
+            <a href="products.html?category=all#products-catalog-section" data-i18n="footer_spec_1">جميع المنتجات</a>
+            <a href="products.html?category=kitchen#products-catalog-section" data-i18n="footer_spec_2">تجهيزات المطابخ والفنادق</a>
+            <a href="products.html?category=architectural#products-catalog-section" data-i18n="footer_spec_3">السلالم والدرابزينات المعمارية</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 data-i18n="footer_contact_title">بيانات التواصل والمبيعات</h4>
+          <div class="footer-contact-list">
+            <div class="footer-contact-item">
+              <i class="fas fa-phone-alt"></i>
+              <div>
+                <strong data-i18n="footer_phone_lbl">الاتصال الهاتفي:</strong><br />
+                <a href="tel:01012047521">01012047521</a>
+              </div>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fab fa-whatsapp" style="color: #25D366;"></i>
+              <div>
+                <strong data-i18n="footer_wa_lbl">واتساب والمقايسات:</strong><br />
+                <a href="https://wa.me/201108314970" target="_blank" rel="noopener noreferrer">01108314970</a>
+              </div>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fab fa-facebook-square"></i>
+              <div>
+                <strong data-i18n="footer_fb_lbl">صفحات فيسبوك:</strong><br />
+                <a href="https://www.facebook.com/profile.php?id=61580929554967" target="_blank" rel="noopener noreferrer" data-i18n="footer_fb_kitchen">بيدج التجهيزات</a><br />
+                <a href="https://www.facebook.com/profile.php?id=61592318002713" target="_blank" rel="noopener noreferrer" data-i18n="footer_fb_stairs">بيدج السلالم</a>
+              </div>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <strong data-i18n="footer_addr_lbl">المقر والمصنع:</strong><br />
+                <a href="https://maps.app.goo.gl/yWB5pG5dzHCzzxS78" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline;" data-i18n="footer_addr_val">القليوبية - قليوب المحطة (طريق البطيء)</a>
+              </div>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fas fa-truck-moving"></i>
+              <div>
+                <strong data-i18n="footer_cov_lbl">التغطية الجغرافية:</strong><br />
+                <span data-i18n="footer_cov_val">جمهورية مصر العربية - توريد وتركيب لكافة المحافظات</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div data-i18n="footer_copy">جميع الحقوق محفوظة &copy; 2026 شركة الفايروز استيل (Al Fayrouz Steel).</div>
+        <div data-i18n="footer_sub">تنفيذ وتطوير: <a href="https://speed-up.tech/" target="_blank" rel="noopener noreferrer" class="speedup-link">شركة SpeedUp</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/products-data.js"></script>
+  <script src="js/translations.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>

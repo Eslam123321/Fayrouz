@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Instant Anti-Flicker Bilingual Engine Pre-Init (Zero Flash of Arabic when English active) -->
+  <script>
+    (function() {
+      var urlParams = new URLSearchParams(window.location.search);
+      var paramLang = urlParams.get('lang');
+      if (paramLang === 'ar' || paramLang === 'en') {
+        localStorage.setItem('alfayrouz_lang', paramLang);
+      }
+      var lang = localStorage.getItem('alfayrouz_lang') || 'ar';
+      document.documentElement.lang = lang;
+      document.documentElement.dir = (lang === 'en') ? 'ltr' : 'rtl';
+      if (lang === 'en') {
+        document.documentElement.classList.add('ltr-mode', 'lang-en-init');
+      }
+    })();
+  </script>
+  <!-- SEO Primary Meta Tags -->
+  <title>من نحن وتاريخ التميز الهندسي | الفايروز استيل</title>
+  <meta name="description" content="تعرف على شركة الفايروز استيل - ريادة تصنيع وتشكيل الستانلس ستيل في مصر، ماكينات فايبر ليزر CNC، لحام أرجون TIG، ومعايير الجودة العالمية لخامات AISI 304 و AISI 316." />
+  <meta name="keywords" content="من نحن الفايروز استيل, مصنع ستانلس ستيل مصر, تشكيل ستانلس ليزر, لحام ارجون ستانلس, درجات الستانلس 304 و 316, Al Fayrouz Steel Egypt" />
+  <meta name="author" content="شركة الفايروز استيل - Al Fayrouz Steel" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="theme-color" content="#0f172a" />
+  <link rel="canonical" href="https://alfayrouzsteel.com/about.html" />
+  <link rel="alternate" hreflang="ar" href="https://alfayrouzsteel.com/about.html" />
+  <link rel="alternate" hreflang="en" href="https://alfayrouzsteel.com/about.html?lang=en" />
+  <link rel="alternate" hreflang="x-default" href="https://alfayrouzsteel.com/about.html" />
+
+  <!-- Localized Geo Targeting (Egypt - Qalyubia / Greater Cairo) -->
+  <meta name="geo.region" content="EG-KB" />
+  <meta name="geo.placename" content="Qalyub, Al-Qalyubia, Egypt" />
+  <meta name="geo.position" content="30.180586;31.227800" />
+  <meta name="ICBM" content="30.180586, 31.227800" />
+  <meta name="DC.title" content="من نحن وتاريخ التميز الهندسي | الفايروز استيل" />
+  <meta name="DC.creator" content="شركة الفايروز استيل - Al Fayrouz Steel" />
+  <meta name="DC.coverage" content="Egypt, Qalyubia, Cairo, Giza, Alexandria" />
+  <meta name="DC.language" content="ar" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://alfayrouzsteel.com/about.html" />
+  <meta property="og:title" content="من نحن | الفايروز استيل لتجهيزات الستانلس ستيل" />
+  <meta property="og:description" content="تاريخ من التميز في تشكيل الستانلس ستيل، خطوط إنتاج CNC فايبر ليزر، ومعايير الجودة العالمية لخامات 304 و 316." />
+  <meta property="og:image" content="https://alfayrouzsteel.com/assets/hero_clean_stage.webp" />
+  <meta property="og:image:secure_url" content="https://alfayrouzsteel.com/assets/hero_clean_stage.webp" />
+  <meta property="og:image:type" content="image/webp" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="من نحن - شركة الفايروز استيل" />
+  <meta property="og:site_name" content="الفايروز استيل - Al Fayrouz Steel" />
+  <meta property="og:locale" content="ar_AR" />
+  <meta property="og:locale:alternate" content="en_US" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="من نحن | شركة الفايروز استيل" />
+  <meta name="twitter:description" content="شريكك الهندسي المعتمد لتشكيل وتصنيع الستانلس ستيل في مصر." />
+  <meta name="twitter:image" content="https://alfayrouzsteel.com/assets/hero_clean_stage.webp" />
+  <meta name="twitter:image:alt" content="من نحن - شركة الفايروز استيل" />
+
+  <!-- Favicon (WebP) -->
+  <link rel="icon" type="image/webp" href="assets/logo.webp" />
+
+  <!-- High-Performance Font Preloads (0ms local rendering, zero font shifting) -->
+  <link rel="preload" href="fonts/cairo-0.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="fonts/cairo-9.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin />
+
+  <!-- Local High-Speed Fonts & Icons (100% Local, 0ms Instant Load, Zero Broken Squares) -->
+  <link rel="stylesheet" href="css/cairo-local.css" />
+  <link rel="stylesheet" href="css/fontawesome-local.css" />
+
+  <!-- Master Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Structured Data JSON-LD (AboutPage, Organization & BreadcrumbList) -->
+  <script type="application/ld+json">
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
+      "name": "من نحن - شركة الفايروز استيل",
+      "description": "تعرف على تاريخ وإمكانيات شركة الفايروز استيل في تصنيع الستانلس ستيل وتجهيزات المطابخ والسلالم في مصر.",
+      "url": "https://alfayrouzsteel.com/about.html",
+      "mainEntity": {
+        "@type": ["Organization", "ManufacturingBusiness"],
+        "name": "شركة الفايروز استيل",
+        "alternateName": "Al Fayrouz Steel",
+        "telephone": "+201012047521",
+        "url": "https://alfayrouzsteel.com",
+        "logo": "https://alfayrouzsteel.com/assets/logo.webp",
+        "image": "https://alfayrouzsteel.com/assets/hero_clean_stage.webp",
+        "hasMap": "https://maps.app.goo.gl/yWB5pG5dzHCzzxS78",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "طريق مصر إسكندرية الزراعي (طريق البطيء) - قليوب المحطة",
+          "addressLocality": "قليوب",
+          "addressRegion": "القليوبية",
+          "postalCode": "13611",
+          "addressCountry": "EG"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 30.1805862,
+          "longitude": 31.2277999
+        },
+        "sameAs": [
+          "https://www.facebook.com/profile.php?id=61580929554967",
+          "https://www.facebook.com/profile.php?id=61592318002713"
+        ]
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "الرئيسية",
+          "item": "https://alfayrouzsteel.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "من نحن",
+          "item": "https://alfayrouzsteel.com/about.html"
+        }
+      ]
+    }
+  ]
+  </script>
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html" class="brand-logo" title="الفايروز استيل">
+          <img src="assets/logo.webp" alt="لوجو الفايروز استيل - Al Fayrouz Steel" />
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <div class="nav-links">
+          <a href="index.html" class="nav-link">
+            <span data-i18n="nav_home">الرئيسية</span>
+          </a>
+          <a href="about.html" class="nav-link active">
+            <span data-i18n="nav_about">من نحن</span>
+          </a>
+          <a href="products.html" class="nav-link">
+            <span data-i18n="nav_products">المنتجات والمقايسات</span>
+          </a>
+          <a href="contact.html" class="nav-link">
+            <span data-i18n="nav_contact">تواصل معنا</span>
+          </a>
+        </div>
+
+        <div class="header-actions">
+          <div class="fb-dropdown-wrapper">
+            <button type="button" class="social-link fb fb-dropdown-trigger" title="صفحات فيسبوك الرسمية" aria-label="صفحات فيسبوك الرسمية" aria-expanded="false">
+              <i class="fab fa-facebook-f"></i>
+            </button>
+            <div class="fb-dropdown-menu" role="menu">
+              <a href="https://www.facebook.com/profile.php?id=61580929554967" target="_blank" rel="noopener noreferrer" class="fb-dropdown-item" role="menuitem">
+                <span class="fb-dropdown-icon"><i class="fab fa-facebook-f"></i></span>
+                <span data-i18n="footer_fb_kitchen">بيدج التجهيزات</span>
+              </a>
+              <a href="https://www.facebook.com/profile.php?id=61592318002713" target="_blank" rel="noopener noreferrer" class="fb-dropdown-item" role="menuitem">
+                <span class="fb-dropdown-icon"><i class="fab fa-facebook-f"></i></span>
+                <span data-i18n="footer_fb_stairs">بيدج السلالم</span>
+              </a>
+            </div>
+          </div>
+          <a href="https://wa.me/201108314970" target="_blank" rel="noopener noreferrer" class="social-link wa" title="محادثة واتساب مباشرة">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a href="tel:01012047521" class="btn-header-call">
+            <i class="fas fa-phone-alt"></i>
+            <span data-i18n="call_btn_text">01012047521</span>
+          </a>
+          <button class="lang-toggle" title="Switch Language" aria-label="تبديل اللغة">
+            <i class="fas fa-globe"></i>
+            <span class="lang-text" data-i18n="lang_toggle_text">English</span>
+          </button>
+          
+          <button class="hamburger-btn" aria-label="فتح القائمة">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Mobile Nav Drawer -->
+  <div class="mobile-nav">
+    <a href="index.html" class="nav-link" data-i18n="nav_home">الرئيسية</a>
+    <a href="about.html" class="nav-link active" data-i18n="nav_about">من نحن</a>
+    <a href="products.html" class="nav-link" data-i18n="nav_products">المنتجات والمقايسات</a>
+    <a href="contact.html" class="nav-link" data-i18n="nav_contact">تواصل معنا</a>
+    <div style="display: flex; gap: 1rem; margin-top: 1rem;">
+      <a href="tel:01012047521" class="btn btn-primary" style="flex: 1;">
+        <i class="fas fa-phone-alt"></i> 01012047521
+      </a>
+      <a href="https://wa.me/201108314970" target="_blank" class="btn btn-whatsapp" style="flex: 1;">
+        <i class="fab fa-whatsapp"></i> واتساب
+      </a>
+    </div>
+    <div class="mobile-lang-wrap" style="margin-top: 0.5rem; padding-top: 1rem; border-top: 1px solid var(--steel-border);">
+      <button class="lang-toggle mobile-nav-lang-btn" title="Switch Language" aria-label="تبديل اللغة" style="width: 100%; display: flex; align-items: center; justify-content: center; gap: 0.6rem; padding: 0.75rem 1rem; font-size: 1rem; border-radius: 10px; background: #f8fafc; border: 1px solid var(--steel-border); color: #0f172a; font-weight: 700; cursor: pointer;">
+        <i class="fas fa-globe"></i>
+        <span class="lang-text" data-i18n="lang_toggle_text">English</span>
+      </button>
+    </div>
+  </div>
+
+  <main>
+    <!-- About Hero -->
+    <section class="about-hero">
+      <div class="container">
+        <span class="badge-tag highlight" style="margin-bottom: 0.8rem;">
+          <i class="fas fa-award"></i> <span data-i18n="about_tag">الهندسة والمصداقية الصناعية</span>
+        </span>
+        <h1 style="font-size: clamp(2.3rem, 4vw, 3.4rem); font-weight: 900; color: #0f172a; margin-bottom: 1.25rem;">
+          <span data-i18n="about_hero_title">شركة الفايروز استيل</span> <br />
+          <span style="font-weight: 500; font-size: 0.65em; color: #475569;" data-i18n="about_hero_sub">شريكك الهندسي المعتمد لتشكيل وتصنيع الستانلس ستيل</span>
+        </h1>
+        <p style="font-size: 1.15rem; color: #475569; max-width: 800px; margin: 0 auto; line-height: 1.8;" data-i18n="about_hero_p">
+          انطلقت <strong>الفايروز استيل</strong> برؤية واضحة: تقديم منتجات ستانلس ستيل فائقة الجودة تدوم لأجيال، وتلبي أدق الاشتراطات الهندسية والصحية للمطاعم والفنادق والمنشآت المعمارية الراقية في كافة أنحاء جمهورية مصر العربية.
+        </p>
+      </div>
+    </section>
+
+    <!-- Manufacturing Pillars -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-i18n="about_pillars_tag">إمكانياتنا الصناعية</span>
+          <h2 class="section-title" data-i18n="about_pillars_title">التكنولوجيا خلف كل قطعة ستانلس ننتجها</h2>
+          <p class="section-subtitle" data-i18n="about_pillars_subtitle">
+            نستثمر في أحدث خطوط الإنتاج والماكينات لضمان خروج كل منتج ومعدة بأعلى درجات الاستواء والتشطيب الخالي من العيوب.
+          </p>
+        </div>
+
+        <div class="factory-pillars">
+          
+          <div class="pillar-card">
+            <div class="pillar-icon">
+              <i class="fas fa-microchip"></i>
+            </div>
+            <h3 data-i18n="pillar1_title">قص فايبر ليزر CNC فائق الدقة</h3>
+            <p data-i18n="pillar1_desc">
+              ماكينات ليزر حديثة بقدرات عالية قادرة على قص ألواح وتيوبات الستانلس بدقة تصل إلى 0.05 مم بدون أي حواف حادة أو رايش، مما يتيح تنفيذ أدق الزخارف والنقوش المعمارية.
+            </p>
+          </div>
+
+          <div class="pillar-card">
+            <div class="pillar-icon">
+              <i class="fas fa-compress-arrows-alt"></i>
+            </div>
+            <h3 data-i18n="pillar2_title">ثنايات هيدروليكية CNC متعددة المحاور</h3>
+            <p data-i18n="pillar2_desc">
+              دقة ثني متناهية لإنتاج هودات المطابخ، طاولات الهاسب ذات الحواف الميتاليكية، والأحواض المكبوسة بزوايا هندسية متطابقة تماماً مع المخططات الهندسية.
+            </p>
+          </div>
+
+          <div class="pillar-card">
+            <div class="pillar-icon">
+              <i class="fas fa-fire"></i>
+            </div>
+            <h3 data-i18n="pillar3_title">لحام أرجون TIG مستمر وغير مسامي</h3>
+            <p data-i18n="pillar3_desc">
+              فريق لحامين معتمدين دولياً لتنفيذ لحامات أرجون متصلة بدون أي ثقوب أو فجوات، تضمن منع تسريب الزيوت والدهون والمياه وتلبي أعلى معايير مكافحة العدوى.
+            </p>
+          </div>
+
+          <div class="pillar-card">
+            <div class="pillar-icon">
+              <i class="fas fa-gem"></i>
+            </div>
+            <h3 data-i18n="pillar4_title">معالجة وتلميع الأسطح (ميرور وساتان)</h3>
+            <p data-i18n="pillar4_desc">
+              خطوط تلميع وصنفرة آلية لتنفيذ درجات تشطيب فائقة النعومة: ساتان اتجاهي مانع للبصمات، أو ميرور 8K عاكس كالمرآة يدوم بريقه لعقود.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Steel Grades Technical Comparison Table -->
+        <div style="margin-top: 5rem;">
+          <div style="text-align: center; margin-bottom: 2rem;">
+            <span class="badge-tag highlight" data-i18n="comp_tag">المواصفات القياسية</span>
+            <h3 style="font-size: 1.85rem; font-weight: 900; color: #0f172a; margin-top: 0.5rem;" data-i18n="comp_title">
+              مقارنة السبائك الهندسية: AISI 304 مقابل AISI 316
+            </h3>
+            <p style="color: #64748b; font-size: 0.95rem;" data-i18n="comp_subtitle">
+              نستخدم فقط خامات الستانلس ستيل النقية المعتمدة بشهادات منشأ كيميائية معتمدة.
+            </p>
+          </div>
+
+          <div class="specs-comparison">
+            <table class="comparison-table">
+              <thead>
+                <tr>
+                  <th data-i18n="th_prop">الخاصية الفنية</th>
+                  <th data-i18n="th_304">ستانلس AISI 304 (الغذائي / المعماري)</th>
+                  <th data-i18n="th_316">ستانلس AISI 316 (البحري / الطبي)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong data-i18n="tr1_prop">التركيب الكيميائي</strong></td>
+                  <td data-i18n="tr1_304">18% كروم | 8% نيكل</td>
+                  <td data-i18n="tr1_316">16% كروم | 10% نيكل + 2% موليبدنوم</td>
+                </tr>
+                <tr>
+                  <td><strong data-i18n="tr2_prop">مقاومة التآكل والأملاح</strong></td>
+                  <td data-i18n="tr2_304">عالية جداً للرطوبة والماء والمنظفات</td>
+                  <td data-i18n="tr2_316">فائقة ومطلقة ضد الأملاح والكلور والأحماض</td>
+                </tr>
+                <tr>
+                  <td><strong data-i18n="tr3_prop">الاستخدام المثالي الموصى به</strong></td>
+                  <td data-i18n="tr3_304">مطابخ المطاعم، هودات، ترابيزات، سلالم داخلية</td>
+                  <td data-i18n="tr3_316">شواطئ ساحلية، حمامات سباحة، مستشفيات، مصانع كيميائية</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Call To Action -->
+    <section style="background: #0f172a; color: #ffffff; padding: 4.5rem 0; border-top: 1px solid var(--steel-border);">
+      <div class="container" style="text-align: center;">
+        <h2 style="font-size: clamp(2rem, 3.2vw, 2.6rem); font-weight: 900; margin-bottom: 1rem;" data-i18n="cta_title">
+          لديك مشروع جديد أو ترغب في مقايسة هندسية بالموقع؟
+        </h2>
+        <p style="font-size: 1.1rem; color: #94a3b8; max-width: 650px; margin: 0 auto 2.5rem; line-height: 1.7;" data-i18n="cta_subtitle">
+          فريقنا الهندسي جاهز لمعاينة الموقع وتحديد أبعاد الشفاطات وطاولات المطبخ أو مسارات السلالم والدرابزينات وتزويدك بعرض سعر تفصيلي.
+        </p>
+        <div style="display: flex; justify-content: center; gap: 1.25rem; flex-wrap: wrap;">
+          <a href="products.html" class="btn btn-cyan" style="padding: 1rem 2rem;">
+            <i class="fas fa-boxes"></i> <span data-i18n="hero_btn_explore">استكشف منتجاتنا</span>
+          </a>
+          <a href="https://wa.me/201108314970" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="padding: 1rem 2rem;">
+            <i class="fab fa-whatsapp"></i> <span data-i18n="cta_wa_btn">تواصل فوري مع الإدارة عبر واتساب</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Floating Elements -->
+  <div class="floating-widgets">
+    <a href="https://wa.me/201108314970?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D9%81%D8%A7%D9%8A%D8%B1%D9%88%D8%B2%20%D8%A7%D8%B3%D8%AA%D9%8A%D9%84" target="_blank" rel="noopener noreferrer" class="floating-wa-btn" title="تحدث معنا على واتساب">
+      <span class="pulse-circle"></span>
+      <i class="fab fa-whatsapp"></i>
+      <span data-i18n="floating_wa_text">طلب مقايسة واتساب</span>
+    </a>
+    <button class="btn-scroll-top" title="الرجوع للأعلى">
+      <i class="fas fa-chevron-up"></i>
+    </button>
+  </div>
+
+  <!-- Site Footer (With 100% Transparent WebP Logo) -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <div class="footer-brand">
+          <img src="assets/logo_footer.webp" alt="الفايروز استيل" />
+          <p data-i18n="footer_brand_desc">
+            شركة <strong>الفايروز استيل</strong> - رواد صناعة وتشكيل الستانلس ستيل، متخصصون في تجهيزات المطابخ والفنادق الفاخرة، والسلالم والدرابزينات المعمارية في مصر.
+          </p>
+          <div class="footer-social-links">
+            <div class="fb-dropdown-wrapper footer-fb-dropdown">
+              <button type="button" class="social-link fb fb-dropdown-trigger" title="صفحات فيسبوك الرسمية" aria-label="صفحات فيسبوك الرسمية" aria-expanded="false">
+                <i class="fab fa-facebook-f"></i>
+              </button>
+              <div class="fb-dropdown-menu" role="menu">
+                <a href="https://www.facebook.com/profile.php?id=61580929554967" target="_blank" rel="noopener noreferrer" class="fb-dropdown-item" role="menuitem">
+                  <span class="fb-dropdown-icon"><i class="fab fa-facebook-f"></i></span>
+                  <span data-i18n="footer_fb_kitchen">بيدج التجهيزات</span>
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61592318002713" target="_blank" rel="noopener noreferrer" class="fb-dropdown-item" role="menuitem">
+                  <span class="fb-dropdown-icon"><i class="fab fa-facebook-f"></i></span>
+                  <span data-i18n="footer_fb_stairs">بيدج السلالم</span>
+                </a>
+              </div>
+            </div>
+            <a href="https://wa.me/201108314970" target="_blank" rel="noopener noreferrer" class="social-link wa" title="واتساب المبيعات والمقايسات">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="tel:01012047521" class="social-link" title="اتصال هاتفي">
+              <i class="fas fa-phone-alt"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 data-i18n="footer_sections_title">أقسام الموقع</h4>
+          <div class="footer-links">
+            <a href="index.html" data-i18n="nav_home">الرئيسية</a>
+            <a href="about.html" data-i18n="nav_about">من نحن</a>
+            <a href="products.html" data-i18n="nav_products">المنتجات والمقايسات</a>
+            <a href="contact.html" data-i18n="nav_contact">تواصل معنا</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 data-i18n="footer_specialties_title">أبرز التخصصات</h4>
+          <div class="footer-links">
+            <a href="products.html?category=all#products-catalog-section" data-i18n="footer_spec_1">جميع المنتجات</a>
+            <a href="products.html?category=kitchen#products-catalog-section" data-i18n="footer_spec_2">تجهيزات المطابخ والفنادق</a>
+            <a href="products.html?category=architectural#products-catalog-section" data-i18n="footer_spec_3">السلالم والدرابزينات المعمارية</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 data-i18n="footer_contact_title">بيانات التواصل والمبيعات</h4>
+          <div class="footer-contact-list">
+            <div class="footer-contact-item">
+              <i class="fas fa-phone-alt"></i>
+              <div>
+                <strong data-i18n="footer_phone_lbl">الاتصال الهاتفي:</strong><br />
+                <a href="tel:01012047521">01012047521</a>
+              </div>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fab fa-whatsapp" style="color: #25D366;"></i>
+              <div>
+                <strong data-i18n="footer_wa_lbl">واتساب والمقايسات:</strong><br />
+                <a href="https://wa.me/201108314970" target="_blank" rel="noopener noreferrer">01108314970</a>
+              </div>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fab fa-facebook-square"></i>
+              <div>
+                <strong data-i18n="footer_fb_lbl">صفحات فيسبوك:</strong><br />
+                <a href="https://www.facebook.com/profile.php?id=61580929554967" target="_blank" rel="noopener noreferrer" data-i18n="footer_fb_kitchen">بيدج التجهيزات</a><br />
+                <a href="https://www.facebook.com/profile.php?id=61592318002713" target="_blank" rel="noopener noreferrer" data-i18n="footer_fb_stairs">بيدج السلالم</a>
+              </div>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <strong data-i18n="footer_addr_lbl">المقر والمصنع:</strong><br />
+                <a href="https://maps.app.goo.gl/yWB5pG5dzHCzzxS78" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline;" data-i18n="footer_addr_val">القليوبية - قليوب المحطة (طريق البطيء)</a>
+              </div>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fas fa-truck-moving"></i>
+              <div>
+                <strong data-i18n="footer_cov_lbl">التغطية الجغرافية:</strong><br />
+                <span data-i18n="footer_cov_val">جمهورية مصر العربية - توريد وتركيب لكافة المحافظات</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div data-i18n="footer_copy">جميع الحقوق محفوظة &copy; 2026 شركة الفايروز استيل (Al Fayrouz Steel).</div>
+        <div data-i18n="footer_sub">تنفيذ وتطوير: <a href="https://speed-up.tech/" target="_blank" rel="noopener noreferrer" class="speedup-link">شركة SpeedUp</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/products-data.js"></script>
+  <script src="js/translations.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>

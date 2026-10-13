@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://alfayrouzsteel.com/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alfayrouzsteel.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alfayrouzsteel.com/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfayrouzsteel.com/" />
+    <image:image>
+      <image:loc>https://alfayrouzsteel.com/assets/hero_clean_stage.webp</image:loc>
+      <image:title>الفايروز استيل لتجهيزات المطابخ والسلالم الستانلس</image:title>
+      <image:caption>ريادة تصنيع وتوريد تجهيزات المطابخ والفنادق والسلالم المعمارية في مصر</image:caption>
+      <image:geo_location>Qalyub, Egypt</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfayrouzsteel.com/assets/logo.webp</image:loc>
+      <image:title>لوجو شركة الفايروز استيل</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://alfayrouzsteel.com/products.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alfayrouzsteel.com/products.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alfayrouzsteel.com/products.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfayrouzsteel.com/products.html" />
+    <image:image>
+      <image:loc>https://alfayrouzsteel.com/assets/hero_clean_stage.webp</image:loc>
+      <image:title>كتالوج منتجات وتجهيزات الستانلس ستيل - الفايروز استيل</image:title>
+      <image:caption>50 منتجاً وتصميماً متميزاً في السلالم والدرابزينات ومعدات المطابخ</image:caption>
+      <image:geo_location>Qalyub, Egypt</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://alfayrouzsteel.com/about.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alfayrouzsteel.com/about.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alfayrouzsteel.com/about.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfayrouzsteel.com/about.html" />
+    <image:image>
+      <image:loc>https://alfayrouzsteel.com/assets/hero_clean_stage.webp</image:loc>
+      <image:title>من نحن - شركة الفايروز استيل</image:title>
+      <image:caption>إمكانيات التصنيع وتشكيل الستانلس ستيل وخطوط الإنتاج CNC في مصر</image:caption>
+      <image:geo_location>Qalyub, Egypt</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://alfayrouzsteel.com/contact.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alfayrouzsteel.com/contact.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alfayrouzsteel.com/contact.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfayrouzsteel.com/contact.html" />
+    <image:image>
+      <image:loc>https://alfayrouzsteel.com/assets/hero_clean_stage.webp</image:loc>
+      <image:title>تواصل مع الفايروز استيل وحجز المقايسات</image:title>
+      <image:caption>مقر ومصنع الفايروز استيل في قليوب المحطة - طريق مصر إسكندرية الزراعي</image:caption>
+      <image:geo_location>Qalyub, Egypt</image:geo_location>
+    </image:image>
+  </url>
+</urlset>

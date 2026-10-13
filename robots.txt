@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alfayrouzsteel.com/sitemap.xml
+Host: https://alfayrouzsteel.com
