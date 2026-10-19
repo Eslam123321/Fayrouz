@@ -62,7 +62,7 @@ const TRANSLATIONS = {
     div2_feat1: "تشطيبات ميرور لامعة وساتان مصنفر وتيتانيوم ذهبي",
     div2_feat2: "خامات 316 مقاومة تماماً للمناطق الساحلية والأملاح",
     div2_feat3: "تصميم وتنفيذ مقاسات خاصة بدقة الليزر CNC",
-    div2_btn: "عرض منتجات السلالم والدرابزين الـ 16",
+    div2_btn: "عرض منتجات السلالم والدرابزين الـ 15",
 
     // Index - Featured
     feat_tag: "أبرز النماذج والمنتجات",
@@ -251,7 +251,7 @@ const TRANSLATIONS = {
     div2_feat1: "Mirror 8K, directional satin brushed, and titanium gold PVD finishes",
     div2_feat2: "Marine-grade 316 steel completely impervious to coastal humidity and salts",
     div2_feat3: "Custom site measurements cut with CNC fiber laser millimeter accuracy",
-    div2_btn: "View All 16 Railings & Stairs Products",
+    div2_btn: "View All 15 Railings & Stairs Products",
 
     // Index - Featured
     feat_tag: "Featured Work Samples",

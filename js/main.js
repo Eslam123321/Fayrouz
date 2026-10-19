@@ -439,8 +439,8 @@
       }).join('');
 
       return `
-        <div class="product-card" data-id="${prod.id}">
-          <div class="card-img-wrap">
+        <div class="product-card" data-id="${prod.id}" data-category="${prod.category}">
+          <div class="card-img-wrap ${prod.category === 'kitchen' ? 'kitchen-card-img' : ''}">
             <img src="${imgPath}" alt="${prodName}" loading="lazy" />
           </div>
           <div class="card-body">

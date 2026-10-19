@@ -146,76 +146,6 @@ const PRODUCTS_DATA = [
     }
   },
   {
-    "id": "FAY-ARC-03",
-    "category": "architectural",
-    "categoryName": "السلالم والدرابزينات والتشطيبات",
-    "categoryNameEn": "Stairs, Railings & Finishes",
-    "name": "هاندريل حائطي ستانلس ستيل للمستشفيات والممرات",
-    "nameEn": "Wall-Mounted Hospital Safety Handrail",
-    "badge": "كود المستشفيات المعتمد",
-    "image": "images/products/arc-03-handrail.webp",
-    "grade": "ستانلس 304 الطبي المعقم",
-    "finish": "مصنفر ناعم مانع للبصمات",
-    "thickness": "قطر 50.8 مم سمك 1.5 مم",
-    "badgeSpecs": [
-      {
-        "icon": "fa-shield-alt",
-        "textAr": "ستانلس 304 طبي",
-        "textEn": "Grade 304 Medical",
-        "text": "ستانلس 304 طبي"
-      },
-      {
-        "icon": "fa-hand-paper",
-        "textAr": "معالج مانع للبصمات",
-        "textEn": "Anti-Fingerprint",
-        "text": "معالج مانع للبصمات"
-      },
-      {
-        "icon": "fa-check",
-        "textAr": "مطابق لكود الأمان",
-        "textEn": "Safety Code Compliant",
-        "text": "مطابق لكود الأمان"
-      },
-      {
-        "icon": "fa-dumbbell",
-        "textAr": "تحمل شاق ومستمر",
-        "textEn": "Heavy Duty Rated",
-        "text": "تحمل شاق ومستمر"
-      }
-    ],
-    "shortDesc": "هاندريل جداري معتمد لممرات المستشفيات والمراكز الطبية والمباني الإدارية، يوفر أقصى درجات النظافة وسهولة التعقيم والراحة في الإمساك.",
-    "features": [
-      "كوابيل تثبيت ستانلس صلبة بمسامير فيشر صلب في الحوائط",
-      "طبايات ونهايات منحنية لحماية الأيدي والملابس من الاحتكاك",
-      "سطح أملس معالج يمنع تجمع البكتيريا والجراثيم",
-      "متانة فائقة مع مقاومة كاملة للمنظفات والمطهرات الكيميائية"
-    ],
-    "specs": {
-      "المقاس القياسي": "مواسير 2 بوصة مع بروز 8 سم عن الحائط",
-      "المسافة بين الكوابيل": "كل 100 سم كابولي دعم",
-      "الاستخدام": "مستشفيات، دور رعاية، ممرات فنادق، مراكز تسوق"
-    },
-    "badgeEn": "Hospital Certified",
-    "gradeEn": "Certified AISI 304 Stainless",
-    "finishEn": "Directional Satin Brushed (No-Fingerprint)",
-    "thicknessEn": "قطر 50.8 mm cmك 1.5 mm",
-    "shortDescEn": "Premium architectural stainless steel fabrication (Certified AISI 304 Stainless) precision cut with CNC laser and engineered for luxury buildings, villas, and hotels.",
-    "featuresEn": [
-      "Heavy-duty construction using genuine certified AISI 304 / 316 stainless steel",
-      "Seamless continuous argon TIG welds ground and polished to perfection",
-      "Custom site dimensions available through precision CNC laser and CAD fabrication",
-      "Full warranty and nationwide engineering delivery & installation in Egypt"
-    ],
-    "specsEn": {
-      "Material Grade": "Certified AISI 304 Stainless",
-      "Surface Finish": "Directional Satin Brushed (No-Fingerprint)",
-      "Metal Thickness": "قطر 50.8 mm cmك 1.5 mm",
-      "Standard Compliance": "Egyptian & European Safety Building Codes",
-      "Fabrication": "CNC Fiber Laser, Hydraulic Bending & Argon TIG Welding",
-      "Warranty & Supply": "Full comprehensive warranty with nationwide Egypt delivery"
-    }
-  },
-  {
     "id": "FAY-ARC-04",
     "category": "architectural",
     "categoryName": "السلالم والدرابزينات والتشطيبات",
@@ -1477,13 +1407,13 @@ const PRODUCTS_DATA = [
     "category": "kitchen",
     "categoryName": "تجهيزات المطابخ والمطاعم والفنادق",
     "categoryNameEn": "Commercial Kitchen & Hotel Equipment",
-    "name": "تلاجه عرض سمك استلس",
-    "nameEn": "Commercial Stainless Steel Fresh Fish Display Counter",
-    "badge": "مقاومة فائقة للتمليح والرطوبة",
+    "name": "بارمارية",
+    "nameEn": "Commercial Stainless Steel Bain-Marie",
+    "badge": "تسخين وحفظ الأطعمة بحمام مائي ساخن",
     "image": "images/products/kit-real-06.webp",
-    "grade": "ستانلس 316 بحري و 304",
-    "finish": "مصنفر ميرور ناعم غير قابل لتراكم البكتيريا",
-    "thickness": "حوض سمك 1.5 مم إلى 2.0 مم معزول بالكامل",
+    "grade": "ستانلس 304 الغذائي المعتمد",
+    "finish": "مصنفر ناعم صحي سهل التنظيف والتعقيم",
+    "thickness": "حوض مسحوب سمك 1.5 مم مدعم ومقاوم للتآكل",
     "badgeSpecs": [
       {
         "icon": "fa-certificate",
@@ -1510,37 +1440,37 @@ const PRODUCTS_DATA = [
         "text": "مطابق لمعايير HACCP"
       }
     ],
-    "shortDesc": "ثلاجة عرض وتبريد أسماك ومأكولات بحرية مصنعة من سبيكة الستانلس 316/304 المعالجة ضد الأملاح والأحماض، مع زجاج سيكوريت بانورامي وصرف مدمج للثلج المذاب.",
+    "shortDesc": "بارمارية (بان ماري) كهربائي ستانلس ستيل 304 لحفظ وتسخين الأطعمة والوجبات ساخنة بنظام الحمام المائي، مجهز بحوض عميق يتسع لأحواض GN متعددة مع صنبور تصريف مياه أمامي وثرموستات حراري دقيق.",
     "features": [
-      "حوض داخلي معزول بالبولي يوريثان عالي الكثافة لحفظ درجات البرودة والثلج",
-      "مجرى صرف مياه مدمج مع شبكة ستانلس لتصريف مياه الثلج الذائب باستمرار",
-      "واجهة زجاجية مقواة بانورامية لعرض الأسماك بجاذبية للمطاعم والهايبر ماركت",
-      "إضاءة LED بيضاء ومضادة للرطوبة والماء تبرز نضارة المأكولات البحرية"
+      "حوض تسخين مائي عميق مسحوب من الستانلس ستيل 304 الغذائي المقاوم تماماً للأملاح والصدأ",
+      "سخانات كهربائية غاطسة فائقة الكفاءة أسفل الحوض تضمن توزيعاً حرارياً لطيفاً ومتجانساً بدون حرق الطعام",
+      "صنبور أمامي مدمج لتصريف وتفريغ المياه بسهولة وسرعة بعد انتهاء يوم التشغيل",
+      "ثرموستات تحكم حراري من 30° إلى 90° مئوية للحفاظ على سخونة الوجبات مطابقة لكود الهاسب وصحة الغذاء"
     ],
     "specs": {
-      "الخامة الداخلية": "ستانلس ستيل AISI 316 بحري مقاوم للأملاح",
-      "الخامة الخارجية": "ستانلس ستيل AISI 304 مصنفر فاخر",
-      "نظام الصرف": "محبس تصريف نحاسي/ستانلس سفلي سريع للتنظيف",
-      "الزجاج": "زجاج سيكوريت مقسى مضاد للكسر ومقوس",
-      "التطبيقات": "مطاعم الأسماك والمأكولات البحرية، أسواق السمك، الفنادق والقرى"
+      "الخامة المعتمدة": "ستانلس ستيل AISI 304 الغذائي بالكامل",
+      "سعة الأحواض": "يتسع لأحواض جاسترونورم GN 1/1 بعمق حتى 150 مم (أو تقسيمات GN متعددة حسب الطلب)",
+      "مصدر الطاقة": "كهرباء 220 فولت مع عناصر تسخين 2 إلى 3 كيلووات",
+      "التحكم والسلامة": "ثرموستات حراري دقيق ولمبة بيان تشغيل مع قاطع حماية",
+      "التطبيقات": "مطاعم، بوفيهات الفنادق المفتوحة، قاعات الحفلات، المستشفيات وشركات التغذية"
     },
-    "badgeEn": "Extreme Salt & Humidity Resistance",
-    "gradeEn": "AISI 316 Marine Grade / 304",
-    "finishEn": "Ultra-Smooth Sanitary Brushed Finish",
-    "thicknessEn": "1.5 mm to 2.0 mm fully polyurethane injected basin",
-    "shortDescEn": "Commercial fresh seafood display counter manufactured from salt-resistant AISI 316/304 stainless steel with panoramic curved glass and melt-water drain.",
+    "badgeEn": "Hot Water Food Warmer Bain-Marie",
+    "gradeEn": "Certified Food-Grade AISI 304 Stainless",
+    "finishEn": "Sanitary High-Smooth Brushed Finish",
+    "thicknessEn": "1.5 mm deep-drawn stainless steel water well",
+    "shortDescEn": "Commercial electric wet-well bain-marie food warmer crafted from AISI 304 stainless steel, accommodating GN pans with front drain tap and precision thermostatic temperature control.",
     "featuresEn": [
-      "High-density polyurethane injected well keeping ice cold with zero sweating",
-      "Integrated floor drainage channel with stainless strainer for melting ice",
-      "Panoramic curved tempered glass display creating attractive seafood presentation",
-      "Waterproof IP67 cold-white LED illumination highlighting fish freshness"
+      "Deep-drawn hygienic AISI 304 stainless steel water well resistant to rust and food salts",
+      "High-performance base heaters providing consistent gentle water warming with zero scorching",
+      "Integrated front drain tap for quick and easy water emptying after service",
+      "Accurate thermostatic temperature control (30°C to 90°C) complying with HACCP hygiene codes"
     ],
     "specsEn": {
-      "Interior Material": "Marine-grade AISI 316 Stainless Steel resistant to fish brine",
-      "Exterior Material": "Premium AISI 304 Satin Brushed Stainless Steel",
-      "Drainage System": "Heavy brass/stainless bottom drain valve for daily sanitization",
-      "Glass Structure": "Curved tempered safety glass with anti-fog properties",
-      "Application": "Seafood restaurants, fishmongers, coastal resorts, supermarket displays"
+      "Material Grade": "Certified Food-Grade AISI 304 Stainless Steel",
+      "Pan Capacity": "Accommodates GN 1/1 pans (depth up to 150 mm) or various GN configurations",
+      "Power Supply": "220V Single-Phase (2 kW to 3 kW efficient heating)",
+      "Temperature Control": "Thermostatic regulation with power indicator lamp and safety thermal fuse",
+      "Applications": "Hotels, commercial buffets, catering lines, restaurants, hospitals"
     }
   },
   {
@@ -1897,12 +1827,12 @@ const PRODUCTS_DATA = [
     "category": "kitchen",
     "categoryName": "تجهيزات المطابخ والمطاعم والفنادق",
     "categoryNameEn": "Commercial Kitchen & Hotel Equipment",
-    "name": "جريل بلاطه غاز",
-    "nameEn": "Commercial Flat Top Gas Griddle & Plancha",
-    "badge": "سطح شوي حراري متجانس",
+    "name": "جريل كهرباء",
+    "nameEn": "Commercial Electric Griddle & Plancha",
+    "badge": "شواء كهربائي متجانس وتحكم حراري دقيق",
     "image": "images/products/kit-real-12.webp",
     "grade": "ستانلس 304 وشريحة صلب مصمتة 16 مم",
-    "finish": "مصنفر صناعي مع بلاطة ملساء مصقولة",
+    "finish": "مصنفر صناعي مع بلاطة مصقولة ناعمة ومضلعة",
     "thickness": "بلاطة طهي مصمتة سمك 16 مم إلى 20 مم",
     "badgeSpecs": [
       {
@@ -1930,35 +1860,39 @@ const PRODUCTS_DATA = [
         "text": "مطابق لمعايير HACCP"
       }
     ],
-    "shortDesc": "جريل بلاطة غاز صناعي مصمم لشوي البرجر واللحوم والبيض والفطائر، مجهز ببلاطة صلب مصمتة فائقة السماكة لتخزين الحرارة ومنع انخفاض درجات الشواء.",
+    "shortDesc": "جريل كهربائي صناعي ستانلس ستيل عالي الأداء لشوي البرجر واللحوم والبيض والسندوتشات، مجهز ببلاطة صلب مصمتة وسخانات قوية مدمجة توفر توزيعاً حرارياً فائق التجانس مع تحكم مستقل في درجات الشواء.",
     "features": [
-      "بلاطة شوي سميكة مسقولة تخزن الحرارة وتوفر استهلاك الغاز",
-      "حواف ستانلس مرتفعة من 3 جهات لمنع تطاير رذاذ الزيوت والدهون",
-      "درج ستانلس سفلي عريض لتجميع الدهون والزيوت الفائضة بسهولة",
-      "شعلات غاز أنبوبية متعددة متقاطعة لضمان عدم وجود بقع باردة على السطح"
+      "سخانات كهربائية مدمجة عالية القدرة موزعة تحت كامل مساحة البلاطة لمنع أي بقع باردة",
+      "بلاطة شوي سميكة مسقولة تخزن كميات هائلة من الطاقة الحرارية وتمنع هبوط الحرارة أثناء وضع اللحوم",
+      "حواف ستانلس مرتفعة من 3 جهات تمنع تطاير وتناثر الزيوت والدهون أثناء التشغيل المكثف",
+      "درج ستانلس سفلي عريض قابل للسحب لتجميع الدهون والزيوت الفائضة بسهولة وسرعة تنظيف",
+      "ثرموستات تحكم حراري مستقل حتى 300° مئوية مع لمبات بيان تشغيل"
     ],
     "specs": {
-      "الهيكل الخارجي": "ستانلس ستيل AISI 304 عالي المقاومة",
-      "سطح الشوي": "صلب كربوني مصقول ناعم (أو ستانلس مطلي بالكروم الصلب)",
-      "نظام الإشعال": "إشعال ذاتي بيزو مع صمامات أمان ثرموكابل",
-      "المقاسات": "متوفر بمقاسات 60 سم، 80 سم، 100 سم، 120 سم"
+      "الهيكل الخارجي": "ستانلس ستيل AISI 304 عالي المقاومة والمتانة",
+      "سطح الشوي": "صلب كربوني مصقول عالي السماكة (سطح ناعم / مضلع أو ميكس)",
+      "مصدر الطاقة": "كهرباء (220V أو 380V - 3 فاز حسب مقاس وسعة الجريل)",
+      "المقاسات": "متوفر بمقاسات 60 سم، 80 سم، 100 سم، 120 سم",
+      "الاستخدام": "مطاعم البرجر، المشويات، الكافيهات، الفنادق وسلاسل الفاست فود"
     },
-    "badgeEn": "Even-Heat Gas Griddle Plancha",
+    "badgeEn": "Even-Heat Commercial Electric Griddle",
     "gradeEn": "AISI 304 Body with 16 mm Solid Steel Plate",
-    "finishEn": "Polished Mirror Smooth Cooking Plate",
+    "finishEn": "Polished Smooth / Ribbed Cooking Plate",
     "thicknessEn": "16 mm to 20 mm solid heat-accumulating griddle plate",
-    "shortDescEn": "Heavy-duty commercial flat top gas griddle plancha designed for continuous grilling of burgers, steaks, and breakfast items with zero thermal loss.",
+    "shortDescEn": "Heavy-duty commercial electric flat-top griddle plancha designed for continuous grilling of burgers, steaks, and breakfast items with precise thermostatic zone control.",
     "featuresEn": [
-      "Thick solid steel cooking plate retaining massive thermal energy",
+      "High-power embedded electric heating elements eliminating cold spots across plate",
+      "Thick solid steel cooking plate retaining massive thermal energy for rapid searing",
       "Integrated 3-sided high stainless splash guards containing grease splatters",
-      "Wide removable front grease collection drawer for easy emptying",
-      "High-efficiency tubular gas burners delivering zero cold spots across the plate"
+      "Wide removable front grease collection drawer for effortless cleaning",
+      "Independent dual-zone thermostats regulating temperature up to 300°C"
     ],
     "specsEn": {
       "Exterior Chassis": "Heavy AISI 304 Stainless Steel Construction",
-      "Grilling Surface": "Ultra-thick polished steel plate (or optional hard chrome)",
-      "Ignition": "Piezo electric ignition with flame failure safety valves",
-      "Sizes Available": "Modular 60 cm, 80 cm, 100 cm, 120 cm configurations"
+      "Grilling Surface": "Ultra-thick polished steel plate (smooth / grooved combination)",
+      "Power Rating": "6 kW to 12 kW (220V Single-Phase or 380V 3-Phase)",
+      "Sizes Available": "Modular 60 cm, 80 cm, 100 cm, 120 cm configurations",
+      "Applications": "Burger restaurants, cafes, hotels, food trucks, fast-food chains"
     }
   },
   {
@@ -2863,13 +2797,13 @@ const PRODUCTS_DATA = [
     "category": "kitchen",
     "categoryName": "تجهيزات المطابخ والمطاعم والفنادق",
     "categoryNameEn": "Commercial Kitchen & Hotel Equipment",
-    "name": "قلايه زيت غاز",
-    "nameEn": "Heavy-Duty Commercial Gas Tube Fryer",
-    "badge": "كفاءة احتراق غاز استثنائية",
+    "name": "قلاية زيت كهرباء",
+    "nameEn": "Heavy-Duty Commercial Electric Deep Fryer",
+    "badge": "تسخين كهربائي فائق واسترداد فوري للحرارة",
     "image": "images/products/kit-real-26.webp",
     "grade": "ستانلس 304 عالي المتانة",
-    "finish": "مصنفر صناعي متين",
-    "thickness": "حوض صلب 1.5 مم مدعم بأنابيب احتراق مغمورة",
+    "finish": "مصنفر صناعي متين سهل التنظيف",
+    "thickness": "حوض صلب 1.5 مم مسحوب قطعة واحدة بدون فواصل",
     "badgeSpecs": [
       {
         "icon": "fa-certificate",
@@ -2896,34 +2830,36 @@ const PRODUCTS_DATA = [
         "text": "مطابق لمعايير HACCP"
       }
     ],
-    "shortDesc": "قلاية غاز صناعية بنظام أنابيب التبادل الحراري المغمورة في الزيت، توفر أعلى سرعة استرداد للحرارة بين دفعات القلي مع استهلاك اقتصادي للغاز.",
+    "shortDesc": "قلاية زيت كهربائية صناعية ستانلس ستيل 304 عالية الكفاءة، مجهزة بسخانات غاطسة قوية توفر استرداداً حرارياً فورياً عند إنزال دفعات الطعام، مع ثرموستات أمان دقيق لحماية الزيت من الاحتراق.",
     "features": [
-      "أنابيب احتراق غاز مغمورة تنقل الحرارة مباشرة إلى قلب الزيت بسرعة فائقة",
-      "منطقة ترسيب باردة واسعة تضمن عدم طعم الحروق في الزيت وتوفير تكاليف التشغيل",
-      "صمام غاز أوتوماتيكي مع بيزو إشعال وثرموكابل أمان مطابق لمواصفات الدفاع المدني",
-      "شاسيه قائم متين مزود بـ 2 سلة قلي ستانلس كبيرة وشبكة سفلية لحماية الأنابيب"
+      "سخانات كهربائية غاطسة عالية الكفاءة قابلة للرفع للأعلى لسهولة وسرعة تنظيف الحوض تماماً",
+      "منطقة ترسيب باردة واسعة (Cold Zone) تمنع تفحم بقايا الأطعمة وتطيل عمر الزيت التشغيلي وتخفض التكاليف",
+      "ثرموستات تحكم حراري فائق الدقة (من 50° إلى 190° مئوية) مع ثرموستات حماية إضافي (Hi-Limit Cutoff)",
+      "شاسيه قائم متين مزود بـ 2 سلة قلي ستانلس كبيرة ومحبس تفريغ زيت سفلي آمن"
     ],
     "specs": {
-      "الخامة": "ستانلس ستيل AISI 304 مقاوم لدرجات الحرارة العالية",
+      "الخامة": "ستانلس ستيل AISI 304 الغذائي المقاوم لدرجات الحرارة العالية والزيوت",
       "سعة الزيت": "سعة 20 إلى 25 لتر زيت تجاري",
-      "قدرة الطاقة": "شعلات غاز بقوة 90,000 إلى 120,000 BTU/ساعة",
-      "الاستخدام": "مطاعم البرويد، البرجر، الفاست فود، الفنادق الكبرى"
+      "القدرة الكهربائية": "12 إلى 18 كيلووات (380V - 3 فاز) للأداء الصناعي الشاق",
+      "الأمان": "قاطع أمان حراري أوتوماتيكي ضد زيادة الحرارة",
+      "الاستخدام": "مطاعم البروستد، البرجر، الفاست فود، الفنادق الكبرى وقاعات الاحتفالات"
     },
-    "badgeEn": "Tube-Fired Commercial Gas Fryer",
+    "badgeEn": "Commercial Electric Deep Fryer",
     "gradeEn": "Heavy-Duty AISI 304 Stainless",
     "finishEn": "Heavy Industrial Brushed Finish",
-    "thicknessEn": "1.5 mm stainless tank with immersed heat exchange tubes",
-    "shortDescEn": "Commercial gas tube fryer with immersed internal heating tubes delivering rapid temperature recovery between heavy batches with low gas consumption.",
+    "thicknessEn": "1.5 mm seamless drawn stainless tank with immersed heating elements",
+    "shortDescEn": "Commercial electric deep fryer crafted from AISI 304 stainless steel with high-power immersed heating elements providing rapid recovery and precise temperature control.",
     "featuresEn": [
-      "Immersed internal heat exchange tubes transferring heat directly to oil core",
-      "Large cold sediment zone extending frying oil life and reducing running costs",
-      "Certified commercial gas control valve with thermopile pilot safety system",
-      "Freestanding stainless cabinet with 2 heavy-duty baskets and tube screen"
+      "High-efficiency swing-up immersed heating elements for rapid heating and effortless basin cleaning",
+      "Large cold sediment zone extending frying oil life and drastically reducing running oil costs",
+      "Precision operating thermostat (+50°C to +190°C) with manual-reset hi-limit safety cutoff",
+      "Freestanding heavy stainless cabinet with 2 durable fry baskets and oil drain valve"
     ],
     "specsEn": {
       "Material Grade": "High-Heat Certified AISI 304 Stainless Steel",
       "Oil Capacity": "20 to 25 Liters commercial oil volume",
-      "BTU Rating": "High-efficiency burners delivering 90,000 to 120,000 BTU/hr",
+      "Power Rating": "12 kW to 18 kW (3-Phase 380V) high output",
+      "Safety": "Dual thermostat system with over-temperature automatic safety cutoff",
       "Applications": "Fried chicken franchises, burger chains, fast food venues, hotels"
     }
   },
@@ -3001,13 +2937,13 @@ const PRODUCTS_DATA = [
     "category": "kitchen",
     "categoryName": "تجهيزات المطابخ والمطاعم والفنادق",
     "categoryNameEn": "Commercial Kitchen & Hotel Equipment",
-    "name": "قلايه قلابه استنالس ستيل",
-    "nameEn": "Commercial Stainless Steel Tilting Bratt Pan Fryer",
-    "badge": "طهي وقلي وسلق عملاق متعدد المهام",
+    "name": "مربع رز كهرباء",
+    "nameEn": "Commercial Electric Square Rice Cooking Pan",
+    "badge": "طهي وتسوية الأرز والوجبات الكبرى بالكهرباء",
     "image": "images/products/kit-real-28.webp",
     "grade": "ستانلس 304 وقاع مركب سمك 12 مم",
-    "finish": "مصنفر صحي عالي النعومة",
-    "thickness": "قاع صلب مركب 10 إلى 12 مم لمنع تشوه المعادن بالحرارة",
+    "finish": "مصنفر صحي عالي النعومة سهل التنظيف",
+    "thickness": "قاع صلب مركب 10 إلى 12 مم لتوزيع حراري متجانس ومنع الالتصاق",
     "badgeSpecs": [
       {
         "icon": "fa-certificate",
@@ -3034,35 +2970,37 @@ const PRODUCTS_DATA = [
         "text": "مطابق لمعايير HACCP"
       }
     ],
-    "shortDesc": "قلاية قلابة تجارية (برات بان) ستانلس ستيل متعددة الوظائف للقلي السطحي، السلق، الطبخ، والتحمير للولائم الكبرى مع نظام قلاب هيدروليكي أو يدوي لصب الطعام.",
+    "shortDesc": "مربع رز كهربائي (حلة تسوية الأرز المربعة) ستانلس ستيل 304 عالي الكفاءة، مصمم لطهي وتسوية كميات ضخمة من الأرز والوجبات للفنادق وقاعات الأفراح والمطابخ المركزية بتوزيع حراري متجانس يمنع الاحتراق والالتصاق.",
     "features": [
-      "قاع طهي سميك مصفح يوزع الحرارة بالتساوي ويتحمل الصدمات الحرارية العنيفة",
-      "نظام إمالة يدوي بعجلة دوارة سلسة أو ماتور كهربائي لتفريغ الطعام بالكامل",
-      "غطاء ستانلس متوازن بياي زنبركي مع فتحة لتصريف البخار الزائد",
-      "صنبور ماء مدمج لتزويد الحوض بالمياه أثناء عمليات الطبخ والسلق"
+      "قاع طهي مصفح فائق السماكة يوزع الحرارة بالتساوي التام لتسوية حبات الأرز بدون أي احتراق",
+      "سخانات كهربائية صناعية عالية الكفاءة مع نظام عزل حراري فائق لمنع فقد الطاقة وتوفير الاستهلاك",
+      "نظام إمالة وتفريغ سلس عبر عجلة يدوية متزنة أو ماتور كهربائي لتفريغ الأرز والوجبات بسهولة",
+      "غطاء ستانلس متوازن بياي زنبركي محكم لحبس البخار وتسريع عملية التسوية مع فتحة تهوية أمان",
+      "صنبور ماء مدمج لتزويد الحوض بالمياه أثناء عمليات الطهي المباشرة"
     ],
     "specs": {
-      "الخامة": "ستانلس ستيل 304 معتمد غذائياً",
-      "السعة": "سعات 80 لتر، 120 لتر، 150 لتر للمطابخ المركزية",
-      "مصدر الطاقة": "متوفرة بنظام الغاز الطبيعي أو الكهرباء 3 فاز",
-      "الحرارة": "تحكم دقيق من 50° إلى 300° مئوية"
+      "الخامة": "ستانلس ستيل 304 معتمد غذائياً بالكامل",
+      "السعة": "سعات 80 لتر، 100 لتر، 120 لتر، 150 لتر للمطابخ المركزية والولائم",
+      "مصدر الطاقة": "كهرباء 3 فاز (380V) صناعية عالية التحمل",
+      "الحرارة والأمان": "تحكم حراري دقيق من 50° إلى 300° مئوية مع ثرموستات حماية من الحمل الزائد"
     },
-    "badgeEn": "Multi-Task Tilting Bratt Pan & Skillet",
+    "badgeEn": "Heavy-Duty Electric Rice & Braising Pan",
     "gradeEn": "AISI 304 with 12 mm Compound Bi-Metal Base",
     "finishEn": "Sanitary High-Smooth Brushed Finish",
     "thicknessEn": "10 mm to 12 mm heavy compound thermal base",
-    "shortDescEn": "Commercial heavy tilting bratt pan / braising pan skillet for frying, braising, boiling, and simmering giant volumes with effortless pouring tilt mechanism.",
+    "shortDescEn": "Commercial heavy-duty electric square rice cooking pan crafted from AISI 304 stainless steel, engineered for mass catering, rice simmering, and braising in hotels and central kitchens.",
     "featuresEn": [
-      "Compound heavy base plate distributing heat perfectly with zero thermal warp",
-      "Precision tilting mechanism (manual handwheel or motorized push-button)",
-      "Counterbalanced spring-loaded lid with steam vent control",
-      "Integrated swivel water tap for filling water directly into the pan"
+      "Compound heavy base plate distributing heat perfectly with zero burning or hot spots",
+      "High-efficiency industrial electric heating elements with premium thermal insulation",
+      "Precision tilting mechanism (manual handwheel or motorized) for effortless emptying",
+      "Counterbalanced spring-loaded lid with steam vent control for optimal rice cooking",
+      "Integrated swivel water tap for filling water directly into the cooking well"
     ],
     "specsEn": {
       "Material Grade": "Certified Food-Grade AISI 304 Stainless Steel",
-      "Volume Capacities": "80L, 120L, 150L mass catering volumes",
-      "Energy Source": "Available in Commercial Gas or 3-Phase Electric power",
-      "Temperature Range": "+50°C to +300°C accurate thermostatic regulation"
+      "Volume Capacities": "80L, 100L, 120L, 150L mass catering volumes",
+      "Energy Source": "3-Phase 380V Industrial Electric Power",
+      "Temperature Range": "+50°C to +300°C accurate thermostatic regulation with overheat protection"
     }
   },
   {

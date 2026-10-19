@@ -1015,6 +1015,30 @@ body.ltr-mode .fb-dropdown-item:hover {
   transform: scale(1.08);
 }
 
+/* Kitchen Equipment Card Images - Full View Zoom Out (object-fit: contain) */
+.product-card[data-category="kitchen"] .card-img-wrap,
+.kitchen-card-img {
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 14px;
+}
+
+.product-card[data-category="kitchen"] .card-img-wrap img,
+.kitchen-card-img img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  transform: scale(0.96);
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.product-card[data-category="kitchen"]:hover .card-img-wrap img,
+.product-card:hover .kitchen-card-img img {
+  transform: scale(1.02);
+}
+
 .card-badge {
   position: absolute;
   top: 1rem;
